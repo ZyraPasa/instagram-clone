@@ -1,3 +1,8 @@
+![zyrapasaa](https://cdn.discordapp.com/attachments/935903282843508776/944220737273733130/unknown.png)
+![zyrapasaa](https://cdn.discordapp.com/attachments/935903282843508776/943148517940166666/unknown.png)
+![zyrapasaa](https://cdn.discordapp.com/attachments/935903282843508776/944149174415405087/unknown.png)
+
+
 # Sosyal Medya Platformu Klonu, Instagram veya Insta Klon
 
 Instagram adı altında bulunan sosyal medya platformunun hizmetini HTML ve CSS olarak bir nevi benzerini yazdım. Bunu gerçekleştirirken Svelte ile Sapper kullandım. Arkaplanda veri akışını destekleyecek kısımda NodeJS tercih ettim.
@@ -44,4 +49,3 @@ If I need to mention the features on the server side:
 
 Except for the story, all the remaining features work one-on-one with Instagram services. It is the SQL procedure that I present to you for installation. It will be enough to use the Client and Server folders. The modular system will be installed automatically and will run smoothly.
 
-![alt text](https://cdn.discordapp.com/attachments/935903282843508776/944220737273733130/unknown.png)
