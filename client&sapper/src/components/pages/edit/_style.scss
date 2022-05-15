@@ -1,0 +1,77 @@
+.edit {
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+  .edit-box {
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 270px 1fr;
+    .edit-box-menu {
+      display: block;
+      overflow: hidden auto;
+      border-right: 1px solid #dbdbdb;
+      ul {
+        li {
+          a {
+            display: block;
+            padding: 1em 1em 1em 2em;
+            background-color: #fff;
+            &:hover {
+              background-color: #fafafa;
+              border-left: 2px solid #dbdbdb;
+            }
+          }
+        }
+      }
+    }
+    .edit-box-content {
+      overflow: hidden auto;
+      position: relative;
+      padding: 2em;
+      .mobile-menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+        display: none;
+      }
+    }
+  }
+}
+
+.active {
+  border-left: 2px solid black;
+  font-weight: bold;
+  &:hover {
+    background-color: #fff;
+    border-left: 2px solid black !important;
+  }
+}
+
+.mobile-active {
+  .edit-box {
+    grid-template-columns: 270px 1fr !important;
+    .edit-box-menu {
+      display: block !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .edit {
+    .edit-box {
+      grid-template-columns: 1fr;
+      .edit-box-menu {
+        display: none;
+      }
+      .edit-box-content {
+        .mobile-menu {
+          display: block;
+        }
+      }
+    }
+  }
+}

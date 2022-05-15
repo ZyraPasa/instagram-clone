@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "ES6",
+    "allowUnusedLabels": false,
+    "moduleResolution": "node"
+  },
+  "exclude": ["node_modules"]
+}

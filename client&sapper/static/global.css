@@ -1,0 +1,191 @@
+@font-face {
+  font-family: ZPFont;
+  src: url("./fonts/Grandista.otf");
+}
+@font-face {
+  font-family: ZPFont;
+  font-weight: bold;
+  src: url("./fonts/Grandista.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  height: 100%;
+  font-family: "Nunito", sans-serif;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  outline: none;
+  border: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+a:active {
+  color: inherit;
+}
+
+main nav::-webkit-scrollbar {
+  width: 0;
+  background-color: gray;
+}
+main nav::-webkit-scrollbar-thumb {
+  width: 0;
+  background-color: #fff;
+}
+main nav::-webkit-scrollbar-track {
+  width: 0;
+  background-color: gray;
+}
+
+main section::-webkit-scrollbar {
+  width: 0;
+  background-color: gray;
+}
+main section::-webkit-scrollbar-thumb {
+  width: 0;
+  background-color: #fff;
+}
+main section::-webkit-scrollbar-track {
+  width: 0;
+  background-color: gray;
+}
+
+.notification::-webkit-scrollbar {
+  width: 0;
+  background-color: #fff;
+}
+.notification::-webkit-scrollbar-thumb {
+  width: 0;
+  background-color: gray;
+}
+.notification::-webkit-scrollbar-track {
+  width: 0;
+  background-color: #fff;
+}
+
+.page::-webkit-scrollbar-track,
+.direct-box-conversation-body-menu ul::-webkit-scrollbar {
+  width: 0;
+  background-color: #fff;
+}
+.page::-webkit-scrollbar-track,
+.direct-box-conversation-body-menu ul::-webkit-scrollbar-thumb {
+  width: 0;
+  background-color: gray;
+}
+.page::-webkit-scrollbar-track,
+.direct-box-conversation-body-menu ul::-webkit-scrollbar-track {
+  width: 0;
+  background-color: #fff;
+}
+
+.home::-webkit-scrollbar {
+  width: 0;
+  background-color: #fff;
+}
+.home::-webkit-scrollbar-thumb {
+  width: 0;
+  background-color: gray;
+}
+.home::-webkit-scrollbar-track {
+  width: 0;
+  background-color: #fff;
+}
+
+.home-box-content::-webkit-scrollbar {
+  width: 0;
+  background-color: #fff;
+}
+.home-box-content::-webkit-scrollbar-thumb {
+  width: 0;
+  background-color: gray;
+}
+.home-box-content::-webkit-scrollbar-track {
+  width: 0;
+  background-color: #fff;
+}
+
+.story-box::-webkit-scrollbar {
+  width: 0;
+  background-color: #fff;
+}
+.story-box::-webkit-scrollbar-thumb {
+  width: 0;
+  background-color: #fff;
+}
+.story-box::-webkit-scrollbar-track {
+  width: 0;
+  background-color: #fff;
+}
+
+.header-search ul::-webkit-scrollbar {
+  width: 0;
+  background-color: #fff;
+}
+.header-search ul::-webkit-scrollbar-thumb {
+  width: 0;
+  background-color: gray;
+}
+.header-search ul::-webkit-scrollbar-track {
+  width: 0;
+  background-color: #fff;
+}
+
+.new-conversation-box-footer::-webkit-scrollbar {
+  width: 0;
+  background-color: #fff;
+}
+.new-conversation-box-footer::-webkit-scrollbar-thumb {
+  width: 0;
+  background-color: gray;
+}
+.new-conversation-box-footer::-webkit-scrollbar-track {
+  width: 0;
+  background-color: #fff;
+}

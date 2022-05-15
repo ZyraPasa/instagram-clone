@@ -1,0 +1,118 @@
+.post {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  .post-head {
+    padding: 1em;
+    .post-head-content {
+      display: grid;
+      grid-auto-flow: column;
+      justify-content: start;
+      align-items: center;
+      grid-gap: 1em;
+      .post-head-content-image {
+        position: relative;
+        width: 32px;
+        height: 32px;
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+        }
+        &::after {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 100%;
+          height: 100%;
+          border: 1px solid #dbdbdb;
+          border-radius: 50%;
+        }
+      }
+      .post-head-content-title {
+        font-weight: bold;
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: start;
+        align-items: center;
+        grid-gap: 0.2em;
+        .verified {
+          display: grid;
+          align-items: center;
+          color: #3897f0;
+        }
+      }
+    }
+  }
+  .post-body {
+    .post-body-content {
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+      }
+    }
+  }
+  .post-footer {
+    .post-footer-head {
+      padding: 1em 1em 0 1em;
+      .post-footer-head-box {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        grid-gap: 1em;
+        user-select: none;
+        .material-icons-outlined {
+          cursor: pointer;
+        }
+        .post-footer-head-box-left {
+          display: grid;
+          grid-auto-flow: column;
+          justify-content: start;
+          grid-gap: 1em;
+        }
+      }
+    }
+    .post-footer-body {
+      padding: 0 1em 1em 1em;
+      .post-footer-body-box {
+        .like-amount {
+          span {
+            font-weight: bold;
+          }
+        }
+        .post-title-box {
+          margin-top: 0.5em;
+          .title {
+            span {
+              font-weight: bold;
+            }
+          }
+        }
+        .post-comment-box {
+          margin-top: 0.5em;
+          .post-comments {
+            display: grid;
+            grid-gap: 0.5em;
+          }
+          .post-comment-button {
+            // margin-top: 0.5em;
+            a {
+              color: #8e8e8e;
+            }
+          }
+        }
+      }
+    }
+    .post-footer-input {
+      border-top: 1px solid #dbdbdb;
+      padding: 1em;
+      form {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+      }
+    }
+  }
+}

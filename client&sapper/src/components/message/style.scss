@@ -1,0 +1,41 @@
+.message-box {
+  margin: 0.5em 0;
+  display: grid;
+  //   grid-template-columns: 2em 1fr;
+  grid-auto-flow: column;
+  justify-content: start;
+  grid-gap: 1em;
+  align-items: center;
+  .message-profile-image {
+    width: 24px;
+    height: 24px;
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+  }
+  .message-box-content {
+    .message {
+      max-width: 236px;
+      p {
+        background: #fff;
+        padding: 0.5em 1em;
+        display: inline-block;
+        border: 1px solid #dbdbdb;
+        border-radius: 22px;
+      }
+    }
+  }
+}
+
+.own {
+  justify-content: end;
+  .message-box-content {
+    .message {
+      p {
+        background: #dfdfdf;
+      }
+    }
+  }
+}

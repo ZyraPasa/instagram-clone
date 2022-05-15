@@ -1,0 +1,55 @@
+.register {
+  background-color: #fafafa;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  .register-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 1em;
+    .register-box-header {
+      text-align: center;
+      h2 {
+        font-size: 1.2em;
+        font-family: "ZPFont", sans-serif;
+      }
+      h3 {
+        margin-top: 1em;
+        color: gray;
+      }
+    }
+    .register-box-body {
+      margin-top: 1em;
+      border-top: 1px solid #dbdbdb;
+      padding-top: 1em;
+      form {
+        display: grid;
+        grid-gap: 0.5em;
+      }
+      .register-box-body-info {
+        text-align: center;
+        font-size: 12px;
+        margin-top: 1em;
+        a {
+          font-weight: bold;
+        }
+      }
+      .login {
+        text-align: center;
+        margin-top: 1em;
+        font-size: 12px;
+        a {
+          color: #0095f6;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
