@@ -48,7 +48,7 @@ CREATE TABLE `accounts` (
 
 INSERT INTO `accounts` (`id`, `username`, `password`, `name`, `email`, `admin_level`, `verified`, `avatar_url`, `biography`, `website`, `created`, `status`) VALUES
 (1, 'accname1', '$2b$10$u.pFve/x31jrq4e/kpbcxOK/XqquZ6sFR6xI27f1ZRx5DQJu1TRga', 'Full Name', 'test@gmail.com', 0, 1, 'http://localhost:5500/1484ee67-75c8-4aee-aaab-75758560e952.png', 'Detail!', 'website.com', '2022-02-04 12:32:17', 0),
-(1, 'accname2', '$2b$10$u.pFve/x31jrq4e/kpbcxOK/XqquZ6sFR6xI27f1ZRx5DQJu1TRga', 'Full Name', 'tester@gmail.com', 0, 1, 'http://localhost:5500/1484ee67-75c8-4aee-aaab-75758560e952.png', 'Detail!', 'website.com', '2022-02-04 12:32:17', 0);
+(2, 'accname2', '$2b$10$u.pFve/x31jrq4e/kpbcxOK/XqquZ6sFR6xI27f1ZRx5DQJu1TRga', 'Full Name', 'tester@gmail.com', 0, 1, 'http://localhost:5500/1484ee67-75c8-4aee-aaab-75758560e952.png', 'Detail!', 'website.com', '2022-02-04 12:32:17', 0);
 -- --------------------------------------------------------
 
 --
