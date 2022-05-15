@@ -44,3 +44,4 @@ If I need to mention the features on the server side:
 
 Except for the story, all the remaining features work one-on-one with Instagram services. It is the SQL procedure that I present to you for installation. It will be enough to use the Client and Server folders. The modular system will be installed automatically and will run smoothly.
 
+![alt text](https://cdn.discordapp.com/attachments/935903282843508776/944220737273733130/unknown.png)
