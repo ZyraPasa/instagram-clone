@@ -72,7 +72,7 @@
             <div class="story">
               <div class="story-image-box">
                 <div class="story-image">
-                  <img src="/photo/profile-2.png" alt="profile" />
+                  <img src="/photo/profile.png" alt="profile" />
                 </div>
               </div>
               <div class="story-title">
@@ -82,7 +82,7 @@
             <div class="story">
               <div class="story-image-box">
                 <div class="story-image">
-                  <img src="/photo/profile-3.png" alt="profile" />
+                  <img src="/photo/profile.png" alt="profile" />
                 </div>
               </div>
               <div class="story-title">
@@ -92,7 +92,7 @@
             <div class="story">
               <div class="story-image-box">
                 <div class="story-image">
-                  <img src="/photo/profile-4.png" alt="profile" />
+                  <img src="/photo/profile.png" alt="profile" />
                 </div>
               </div>
               <div class="story-title">
@@ -102,7 +102,7 @@
             <div class="story">
               <div class="story-image-box">
                 <div class="story-image">
-                  <img src="/photo/profile-5.png" alt="profile" />
+                  <img src="/photo/profile.png" alt="profile" />
                 </div>
               </div>
               <div class="story-title">
@@ -112,7 +112,7 @@
             <div class="story">
               <div class="story-image-box">
                 <div class="story-image">
-                  <img src="/photo/profile-6.png" alt="profile" />
+                  <img src="/photo/profile.png" alt="profile" />
                 </div>
               </div>
               <div class="story-title">
@@ -122,7 +122,7 @@
             <div class="story">
               <div class="story-image-box">
                 <div class="story-image">
-                  <img src="/photo/profile-7.png" alt="profile" />
+                  <img src="/photo/profile.png" alt="profile" />
                 </div>
               </div>
               <div class="story-title">
